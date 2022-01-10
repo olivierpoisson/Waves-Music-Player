@@ -1,0 +1,27 @@
+nav {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button {
+        background: transparent;
+        cursor: pointer;
+        border: 2px solid rgb(65, 65, 65);
+        transition: all 0.3s ease;
+        padding: 0.5rem;
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: white;
+        }
+    }
+}
+.musicicon {
+    margin-left: 5px;
+}
+//! MOBILE STYLING
+
+@media screen and (max-width: 768px) {
+    nav {
+        z-index: 10;
+    }
+}
