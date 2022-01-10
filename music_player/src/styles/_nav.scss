@@ -21,7 +21,7 @@ nav {
 //! MOBILE STYLING
 
 @media screen and (max-width: 768px) {
-    nav {
+    nav > button {
         z-index: 10;
     }
 }
